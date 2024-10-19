@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4F270198017422694B8BB6 /* Pods_PixelMingle_PixelMingleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FECD22376F22967678BCA1 /* Pods_PixelMingle_PixelMingleUITests.framework */; };
+		A4DFC3AA00F3540E7FE6ABE4 /* Pods_PixelMingleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4D48F42DA3B0645641B821 /* Pods_PixelMingleTests.framework */; };
+		E47A21642C7F523100EBCE6F /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A21632C7F523100EBCE6F /* SideMenuTableViewCell.swift */; };
+		E47A21672C7F58E400EBCE6F /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A21652C7F58E400EBCE6F /* FeedbackViewController.swift */; };
+		E47A216A2C7F58EC00EBCE6F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A21682C7F58EC00EBCE6F /* AboutUsViewController.swift */; };
+		E47A216D2C7F669200EBCE6F /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A216C2C7F669200EBCE6F /* WallpaperViewController.swift */; };
+		E47A216F2C7F674000EBCE6F /* WallpaperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47A216E2C7F674000EBCE6F /* WallpaperCollectionViewCell.swift */; };
+		E47AF4512C78910600A697D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4502C78910600A697D0 /* AppDelegate.swift */; };
+		E47AF4532C78910600A697D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4522C78910600A697D0 /* SceneDelegate.swift */; };
+		E47AF4582C78910600A697D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E47AF4572C78910600A697D0 /* Base */; };
+		E47AF45A2C78910900A697D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47AF4592C78910900A697D0 /* Assets.xcassets */; };
+		E47AF45D2C78910900A697D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E47AF45C2C78910900A697D0 /* Base */; };
+		E47AF4682C78910A00A697D0 /* PixelMingleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4672C78910A00A697D0 /* PixelMingleTests.swift */; };
+		E47AF4722C78910A00A697D0 /* PixelMingleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4712C78910A00A697D0 /* PixelMingleUITests.swift */; };
+		E47AF4742C78910A00A697D0 /* PixelMingleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4732C78910A00A697D0 /* PixelMingleUITestsLaunchTests.swift */; };
+		E47AF4812C7891E800A697D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4802C7891E800A697D0 /* HomeViewController.swift */; };
+		E47AF4842C789B8F00A697D0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4832C789B8F00A697D0 /* CollectionViewCell.swift */; };
+		E47AF4872C789BD100A697D0 /* SelectLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47AF4862C789BD100A697D0 /* SelectLayoutViewController.swift */; };
+		E4A475792C806234003749F8 /* DetailWallpaperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A475782C806234003749F8 /* DetailWallpaperVC.swift */; };
+		E4A4757B2C806E92003749F8 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4757A2C806E92003749F8 /* WelcomeVC.swift */; };
+		E4EADC9C2C78B71A004DDB24 /* CollaegSetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EADC9B2C78B71A004DDB24 /* CollaegSetsViewController.swift */; };
+		E4EADC9E2C78BBE7004DDB24 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EADC9D2C78BBE7004DDB24 /* Helper.swift */; };
+		FE321B3D19178F5101C28B1F /* Pods_PixelMingle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3169562A2014FB050C90CCD2 /* Pods_PixelMingle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E47AF4642C78910A00A697D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47AF4452C78910600A697D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47AF44C2C78910600A697D0;
+			remoteInfo = PixelMingle;
+		};
+		E47AF46E2C78910A00A697D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E47AF4452C78910600A697D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47AF44C2C78910600A697D0;
+			remoteInfo = PixelMingle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3169562A2014FB050C90CCD2 /* Pods_PixelMingle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelMingle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E193504B9FF4595545DA7F /* Pods-PixelMingle-PixelMingleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingle-PixelMingleUITests.debug.xcconfig"; path = "Target Support Files/Pods-PixelMingle-PixelMingleUITests/Pods-PixelMingle-PixelMingleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3F92D803F6F9DEF1E24D76 /* Pods-PixelMingle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingle.release.xcconfig"; path = "Target Support Files/Pods-PixelMingle/Pods-PixelMingle.release.xcconfig"; sourceTree = "<group>"; };
+		9D0543AA86FF36BBDC75317D /* Pods-PixelMingleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingleTests.debug.xcconfig"; path = "Target Support Files/Pods-PixelMingleTests/Pods-PixelMingleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FECD22376F22967678BCA1 /* Pods_PixelMingle_PixelMingleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelMingle_PixelMingleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78DF27213655ADC460BFC89 /* Pods-PixelMingle-PixelMingleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingle-PixelMingleUITests.release.xcconfig"; path = "Target Support Files/Pods-PixelMingle-PixelMingleUITests/Pods-PixelMingle-PixelMingleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E47A21632C7F523100EBCE6F /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		E47A21652C7F58E400EBCE6F /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		E47A21682C7F58EC00EBCE6F /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		E47A216C2C7F669200EBCE6F /* WallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewController.swift; sourceTree = "<group>"; };
+		E47A216E2C7F674000EBCE6F /* WallpaperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionViewCell.swift; sourceTree = "<group>"; };
+		E47AF44D2C78910600A697D0 /* PixelMingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelMingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47AF4502C78910600A697D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E47AF4522C78910600A697D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E47AF4572C78910600A697D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E47AF4592C78910900A697D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E47AF45C2C78910900A697D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E47AF45E2C78910900A697D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47AF4632C78910A00A697D0 /* PixelMingleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelMingleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47AF4672C78910A00A697D0 /* PixelMingleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMingleTests.swift; sourceTree = "<group>"; };
+		E47AF46D2C78910A00A697D0 /* PixelMingleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelMingleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47AF4712C78910A00A697D0 /* PixelMingleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMingleUITests.swift; sourceTree = "<group>"; };
+		E47AF4732C78910A00A697D0 /* PixelMingleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelMingleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E47AF4802C7891E800A697D0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E47AF4832C789B8F00A697D0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E47AF4862C789BD100A697D0 /* SelectLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLayoutViewController.swift; sourceTree = "<group>"; };
+		E4A475782C806234003749F8 /* DetailWallpaperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWallpaperVC.swift; sourceTree = "<group>"; };
+		E4A4757A2C806E92003749F8 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		E4EADC9B2C78B71A004DDB24 /* CollaegSetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaegSetsViewController.swift; sourceTree = "<group>"; };
+		E4EADC9D2C78BBE7004DDB24 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E9E9100E45A5466D3838E1C3 /* Pods-PixelMingleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingleTests.release.xcconfig"; path = "Target Support Files/Pods-PixelMingleTests/Pods-PixelMingleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F07C57F701B7B1BCE1538D0D /* Pods-PixelMingle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelMingle.debug.xcconfig"; path = "Target Support Files/Pods-PixelMingle/Pods-PixelMingle.debug.xcconfig"; sourceTree = "<group>"; };
+		FA4D48F42DA3B0645641B821 /* Pods_PixelMingleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelMingleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E47AF44A2C78910600A697D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE321B3D19178F5101C28B1F /* Pods_PixelMingle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF4602C78910A00A697D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DFC3AA00F3540E7FE6ABE4 /* Pods_PixelMingleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF46A2C78910A00A697D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4F270198017422694B8BB6 /* Pods_PixelMingle_PixelMingleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D88A54A8300007ED9349B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3169562A2014FB050C90CCD2 /* Pods_PixelMingle.framework */,
+				A3FECD22376F22967678BCA1 /* Pods_PixelMingle_PixelMingleUITests.framework */,
+				FA4D48F42DA3B0645641B821 /* Pods_PixelMingleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17E985F81EC5D3FA0E47528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07C57F701B7B1BCE1538D0D /* Pods-PixelMingle.debug.xcconfig */,
+				3A3F92D803F6F9DEF1E24D76 /* Pods-PixelMingle.release.xcconfig */,
+				35E193504B9FF4595545DA7F /* Pods-PixelMingle-PixelMingleUITests.debug.xcconfig */,
+				D78DF27213655ADC460BFC89 /* Pods-PixelMingle-PixelMingleUITests.release.xcconfig */,
+				9D0543AA86FF36BBDC75317D /* Pods-PixelMingleTests.debug.xcconfig */,
+				E9E9100E45A5466D3838E1C3 /* Pods-PixelMingleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E47A21662C7F58E400EBCE6F /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				E47A21652C7F58E400EBCE6F /* FeedbackViewController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		E47A21692C7F58EC00EBCE6F /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				E47A21682C7F58EC00EBCE6F /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
+		E47A216B2C7F667B00EBCE6F /* Wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				E47A216C2C7F669200EBCE6F /* WallpaperViewController.swift */,
+				E47A216E2C7F674000EBCE6F /* WallpaperCollectionViewCell.swift */,
+			);
+			path = Wallpapers;
+			sourceTree = "<group>";
+		};
+		E47AF4442C78910600A697D0 = {
+			isa = PBXGroup;
+			children = (
+				E47AF44F2C78910600A697D0 /* PixelMingle */,
+				E47AF4662C78910A00A697D0 /* PixelMingleTests */,
+				E47AF4702C78910A00A697D0 /* PixelMingleUITests */,
+				E47AF44E2C78910600A697D0 /* Products */,
+				C17E985F81EC5D3FA0E47528 /* Pods */,
+				70D88A54A8300007ED9349B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E47AF44E2C78910600A697D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E47AF44D2C78910600A697D0 /* PixelMingle.app */,
+				E47AF4632C78910A00A697D0 /* PixelMingleTests.xctest */,
+				E47AF46D2C78910A00A697D0 /* PixelMingleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E47AF44F2C78910600A697D0 /* PixelMingle */ = {
+			isa = PBXGroup;
+			children = (
+				E485F9E12C7F2E080018A465 /* Resources */,
+				E47A21692C7F58EC00EBCE6F /* About Us */,
+				E47A21662C7F58E400EBCE6F /* Feedback */,
+				E4A475772C8061E3003749F8 /* Detail Wallpaper */,
+				E47A216B2C7F667B00EBCE6F /* Wallpapers */,
+				E4EADC9A2C78B701004DDB24 /* Collages */,
+				E47AF4852C789BA400A697D0 /* Collage Layouts */,
+				E47AF4822C7891ED00A697D0 /* Home */,
+				E4A4757C2C806EA2003749F8 /* welcome */,
+				E47AF4502C78910600A697D0 /* AppDelegate.swift */,
+				E47AF4522C78910600A697D0 /* SceneDelegate.swift */,
+				E47AF4562C78910600A697D0 /* Main.storyboard */,
+				E47AF4592C78910900A697D0 /* Assets.xcassets */,
+				E47AF45B2C78910900A697D0 /* LaunchScreen.storyboard */,
+				E47AF45E2C78910900A697D0 /* Info.plist */,
+			);
+			path = PixelMingle;
+			sourceTree = "<group>";
+		};
+		E47AF4662C78910A00A697D0 /* PixelMingleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E47AF4672C78910A00A697D0 /* PixelMingleTests.swift */,
+			);
+			path = PixelMingleTests;
+			sourceTree = "<group>";
+		};
+		E47AF4702C78910A00A697D0 /* PixelMingleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E47AF4712C78910A00A697D0 /* PixelMingleUITests.swift */,
+				E47AF4732C78910A00A697D0 /* PixelMingleUITestsLaunchTests.swift */,
+			);
+			path = PixelMingleUITests;
+			sourceTree = "<group>";
+		};
+		E47AF4822C7891ED00A697D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E47A21632C7F523100EBCE6F /* SideMenuTableViewCell.swift */,
+				E47AF4802C7891E800A697D0 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E47AF4852C789BA400A697D0 /* Collage Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				E47AF4862C789BD100A697D0 /* SelectLayoutViewController.swift */,
+				E47AF4832C789B8F00A697D0 /* CollectionViewCell.swift */,
+			);
+			path = "Collage Layouts";
+			sourceTree = "<group>";
+		};
+		E485F9E12C7F2E080018A465 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4EADC9D2C78BBE7004DDB24 /* Helper.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4A475772C8061E3003749F8 /* Detail Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				E4A475782C806234003749F8 /* DetailWallpaperVC.swift */,
+			);
+			path = "Detail Wallpaper";
+			sourceTree = "<group>";
+		};
+		E4A4757C2C806EA2003749F8 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E4A4757A2C806E92003749F8 /* WelcomeVC.swift */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		E4EADC9A2C78B701004DDB24 /* Collages */ = {
+			isa = PBXGroup;
+			children = (
+				E4EADC9B2C78B71A004DDB24 /* CollaegSetsViewController.swift */,
+			);
+			path = Collages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E47AF44C2C78910600A697D0 /* PixelMingle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47AF4772C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingle" */;
+			buildPhases = (
+				A15C7EF984855BE1D74F3244 /* [CP] Check Pods Manifest.lock */,
+				E47AF4492C78910600A697D0 /* Sources */,
+				E47AF44A2C78910600A697D0 /* Frameworks */,
+				E47AF44B2C78910600A697D0 /* Resources */,
+				6EED5DE5D4CB9B7B922A0EFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelMingle;
+			productName = PixelMingle;
+			productReference = E47AF44D2C78910600A697D0 /* PixelMingle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E47AF4622C78910A00A697D0 /* PixelMingleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47AF47A2C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingleTests" */;
+			buildPhases = (
+				5DEFD449EFAA747B1CB993EE /* [CP] Check Pods Manifest.lock */,
+				E47AF45F2C78910A00A697D0 /* Sources */,
+				E47AF4602C78910A00A697D0 /* Frameworks */,
+				E47AF4612C78910A00A697D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47AF4652C78910A00A697D0 /* PBXTargetDependency */,
+			);
+			name = PixelMingleTests;
+			productName = PixelMingleTests;
+			productReference = E47AF4632C78910A00A697D0 /* PixelMingleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E47AF46C2C78910A00A697D0 /* PixelMingleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47AF47D2C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingleUITests" */;
+			buildPhases = (
+				B1340C2C2EB50F0B0D189514 /* [CP] Check Pods Manifest.lock */,
+				E47AF4692C78910A00A697D0 /* Sources */,
+				E47AF46A2C78910A00A697D0 /* Frameworks */,
+				E47AF46B2C78910A00A697D0 /* Resources */,
+				2F160C5819230467E8DC841D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47AF46F2C78910A00A697D0 /* PBXTargetDependency */,
+			);
+			name = PixelMingleUITests;
+			productName = PixelMingleUITests;
+			productReference = E47AF46D2C78910A00A697D0 /* PixelMingleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E47AF4452C78910600A697D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E47AF44C2C78910600A697D0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E47AF4622C78910A00A697D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E47AF44C2C78910600A697D0;
+					};
+					E47AF46C2C78910A00A697D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E47AF44C2C78910600A697D0;
+					};
+				};
+			};
+			buildConfigurationList = E47AF4482C78910600A697D0 /* Build configuration list for PBXProject "PixelMingle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E47AF4442C78910600A697D0;
+			productRefGroup = E47AF44E2C78910600A697D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E47AF44C2C78910600A697D0 /* PixelMingle */,
+				E47AF4622C78910A00A697D0 /* PixelMingleTests */,
+				E47AF46C2C78910A00A697D0 /* PixelMingleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E47AF44B2C78910600A697D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47AF45A2C78910900A697D0 /* Assets.xcassets in Resources */,
+				E47AF45D2C78910900A697D0 /* Base in Resources */,
+				E47AF4582C78910600A697D0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF4612C78910A00A697D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF46B2C78910A00A697D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F160C5819230467E8DC841D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixelMingle-PixelMingleUITests/Pods-PixelMingle-PixelMingleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixelMingle-PixelMingleUITests/Pods-PixelMingle-PixelMingleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PixelMingle-PixelMingleUITests/Pods-PixelMingle-PixelMingleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEFD449EFAA747B1CB993EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelMingleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EED5DE5D4CB9B7B922A0EFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixelMingle/Pods-PixelMingle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixelMingle/Pods-PixelMingle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PixelMingle/Pods-PixelMingle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A15C7EF984855BE1D74F3244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelMingle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1340C2C2EB50F0B0D189514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelMingle-PixelMingleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E47AF4492C78910600A697D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47AF4872C789BD100A697D0 /* SelectLayoutViewController.swift in Sources */,
+				E47A216F2C7F674000EBCE6F /* WallpaperCollectionViewCell.swift in Sources */,
+				E4A475792C806234003749F8 /* DetailWallpaperVC.swift in Sources */,
+				E4EADC9E2C78BBE7004DDB24 /* Helper.swift in Sources */,
+				E47AF4512C78910600A697D0 /* AppDelegate.swift in Sources */,
+				E4A4757B2C806E92003749F8 /* WelcomeVC.swift in Sources */,
+				E47A21672C7F58E400EBCE6F /* FeedbackViewController.swift in Sources */,
+				E47AF4532C78910600A697D0 /* SceneDelegate.swift in Sources */,
+				E4EADC9C2C78B71A004DDB24 /* CollaegSetsViewController.swift in Sources */,
+				E47A21642C7F523100EBCE6F /* SideMenuTableViewCell.swift in Sources */,
+				E47AF4842C789B8F00A697D0 /* CollectionViewCell.swift in Sources */,
+				E47A216A2C7F58EC00EBCE6F /* AboutUsViewController.swift in Sources */,
+				E47A216D2C7F669200EBCE6F /* WallpaperViewController.swift in Sources */,
+				E47AF4812C7891E800A697D0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF45F2C78910A00A697D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47AF4682C78910A00A697D0 /* PixelMingleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47AF4692C78910A00A697D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47AF4722C78910A00A697D0 /* PixelMingleUITests.swift in Sources */,
+				E47AF4742C78910A00A697D0 /* PixelMingleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E47AF4652C78910A00A697D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47AF44C2C78910600A697D0 /* PixelMingle */;
+			targetProxy = E47AF4642C78910A00A697D0 /* PBXContainerItemProxy */;
+		};
+		E47AF46F2C78910A00A697D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47AF44C2C78910600A697D0 /* PixelMingle */;
+			targetProxy = E47AF46E2C78910A00A697D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E47AF4562C78910600A697D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E47AF4572C78910600A697D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E47AF45B2C78910900A697D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E47AF45C2C78910900A697D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E47AF4752C78910A00A697D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E47AF4762C78910A00A697D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E47AF4782C78910A00A697D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07C57F701B7B1BCE1538D0D /* Pods-PixelMingle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PixelMingle/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "for image download";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E47AF4792C78910A00A697D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3F92D803F6F9DEF1E24D76 /* Pods-PixelMingle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PixelMingle/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "for image download";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E47AF47B2C78910A00A697D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0543AA86FF36BBDC75317D /* Pods-PixelMingleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.PixelMingleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMingle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixelMingle";
+			};
+			name = Debug;
+		};
+		E47AF47C2C78910A00A697D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E9100E45A5466D3838E1C3 /* Pods-PixelMingleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.PixelMingleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixelMingle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PixelMingle";
+			};
+			name = Release;
+		};
+		E47AF47E2C78910A00A697D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E193504B9FF4595545DA7F /* Pods-PixelMingle-PixelMingleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.PixelMingleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelMingle;
+			};
+			name = Debug;
+		};
+		E47AF47F2C78910A00A697D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78DF27213655ADC460BFC89 /* Pods-PixelMingle-PixelMingleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelmingle.PixelMingleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PixelMingle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E47AF4482C78910600A697D0 /* Build configuration list for PBXProject "PixelMingle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47AF4752C78910A00A697D0 /* Debug */,
+				E47AF4762C78910A00A697D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47AF4772C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47AF4782C78910A00A697D0 /* Debug */,
+				E47AF4792C78910A00A697D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47AF47A2C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47AF47B2C78910A00A697D0 /* Debug */,
+				E47AF47C2C78910A00A697D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47AF47D2C78910A00A697D0 /* Build configuration list for PBXNativeTarget "PixelMingleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47AF47E2C78910A00A697D0 /* Debug */,
+				E47AF47F2C78910A00A697D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E47AF4452C78910600A697D0 /* Project object */;
+}
