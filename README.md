@@ -1,6 +1,6 @@
 # PixelMingle
 
-[![PixelMingle on the App Store](https://link-to-your-app-icon.com)](https://apps.apple.com/)
+[![PixelMingle on the App Store](https://github.com/MoinJanjua/PixelMingle/blob/main/2.png)](https://apps.apple.com/)
 
 **PixelMingle**: Unleash Your Creativity with Professional Photo Editing
 
